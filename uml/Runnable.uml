@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.lang.Runnable</OriginalElement>
+  <nodes>
+    <node x="16.25" y="246.0">java.util.concurrent.RunnableFuture</node>
+    <node x="29.5" y="0.0">java.lang.FunctionalInterface</node>
+    <node x="240.0" y="79.0">java.util.concurrent.Future</node>
+    <node x="7.75" y="369.0">java.util.concurrent.FutureTask</node>
+    <node x="236.5" y="202.0">java.util.concurrent.CompletableFuture</node>
+    <node x="125.0" y="101.0">java.util.concurrent.Callable</node>
+    <node x="0.0" y="101.0">java.lang.Runnable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-14.5" />
+      <point x="52.5" y="54.0" />
+      <point x="71.0" y="54.0" />
+      <point x="-41.5" y="14.5" />
+    </edge>
+    <edge source="java.util.concurrent.RunnableFuture" target="java.lang.Runnable">
+      <point x="-36.25" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture" target="java.util.concurrent.Future">
+      <point x="0.0" y="-58.5" />
+      <point x="40.5" y="36.5" />
+    </edge>
+    <edge source="java.util.concurrent.Callable" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-14.5" />
+      <point x="172.5" y="54.0" />
+      <point x="154.0" y="54.0" />
+      <point x="41.5" y="14.5" />
+    </edge>
+    <edge source="java.util.concurrent.RunnableFuture" target="java.util.concurrent.Future">
+      <point x="36.25" y="-14.5" />
+      <point x="125.0" y="177.0" />
+      <point x="280.5" y="177.0" />
+      <point x="-40.5" y="36.5" />
+    </edge>
+    <edge source="java.util.concurrent.FutureTask" target="java.util.concurrent.RunnableFuture">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="282.0" y="319.5" />
+  <SelectedNodes>
+    <node>java.util.concurrent.CompletableFuture</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
